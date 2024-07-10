@@ -7,7 +7,7 @@ function banner({ children, ...props }) {
   return (
     <section
       id="banner"
-      className={`bg-white pt-8 grid lg:grid-cols-2 gap-20 justify-items-center items-center ${props.class}`}
+      className={`bg-white pt-8 grid lg:grid-cols-2 gap-20 justify-items-center items-center px-8 ${props.class}`}
     >
       <Image
         src={props.image}

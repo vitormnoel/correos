@@ -6,7 +6,7 @@ import Title from "./title.jsx";
 function infoCard({ ...props }) {
   return (
     <div
-      className={`bg-slate-50 rounded-md py-6 px-10 grid md:grid-cols-4 lg:block items-center gap-8`}
+      className={`bg-stone-100 rounded-md py-6 px-10 grid md:grid-cols-4 lg:block items-center gap-8`}
     >
       {props.image ? (
         <Image

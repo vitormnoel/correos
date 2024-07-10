@@ -6,7 +6,7 @@ import OutButton from "./outlined_button.jsx";
 function info({ ...props }) {
   return (
     <section
-      className={`bg-slate-100 px-6 md:px-20 py-10 rounded-md ${props.class}`}
+      className={`bg-stone-100 px-6 md:px-20 py-10 rounded-md ${props.class}`}
     >
       {props.image ? (
         <div className={`w-full h-[30vh] overflow-hidden ${props.div}`}>

@@ -15,7 +15,7 @@ function homePage() {
         button="learn more"
       />
 
-      <section className="my-32">
+      <section className="my-20 px-8 md:container m-auto">
         <Title h2="Quick Access" classTitle="mb-6" />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <InfoCard
@@ -42,17 +42,7 @@ function homePage() {
         </div>
       </section>
 
-      <section className="my-32 flex flex-col gap-36">
-        <Card
-          image="/images/sections/company.jpg"
-          subtitle="Company"
-          title="Correos for your business"
-          text="Power your small and medium-sixed business success with our shipment and logistics. Our team of experts can help you address the ever changing need or your customers."
-          imageLeft="-"
-          button="explore our solutions"
-          href=""
-        />
-
+      <section >
         <Info
           title="Online store"
           text="Buy everything you need online for your postal deliveries (envelopes, packaging, stamps, etc). We also offer Correos merchandise, products for stamp collectors, and gifts to delight your loved ones."
@@ -60,6 +50,18 @@ function homePage() {
           class="flex flex-row-reverse gap-10 items-center"
           div="justify-center hidden md:flex"
           button="more info"
+          href=""
+        />
+      </section>
+
+      <section className="my-20 flex flex-col gap-20 px-8 md:container m-auto">
+        <Card
+          image="/images/sections/company.jpg"
+          subtitle="Company"
+          title="Correos for your business"
+          text="Power your small and medium-sixed business success with our shipment and logistics. Our team of experts can help you address the ever changing need or your customers."
+          imageLeft="-"
+          button="explore our solutions"
           href=""
         />
 

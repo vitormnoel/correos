@@ -16,7 +16,7 @@ function rootLayout({ children }) {
       <body>
         <Header />
 
-        <main className="font-light static px-8 md:container m-auto w-full">{children}</main>
+        <main className="font-light w-full">{children}</main>
 
         <Footer/>
       </body>
