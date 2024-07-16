@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FaUser } from "react-icons/fa";
 
 import NavBar from "./navbar.jsx";
 
@@ -20,10 +19,6 @@ function header() {
 
       <NavBar />
 
-      <div className="flex items-center gap-2">
-        <FaUser />
-        <h2 className="cursor-pointer">login</h2>
-      </div>
     </header>
   );
 }
